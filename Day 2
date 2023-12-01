@@ -1,0 +1,13 @@
+int matSearch (int N, int M, int matrix[][M], int x)
+{
+    int i,j;
+    for(i=0;i<N;i++)
+    {
+        for(j=0;j<M;j++)
+        {
+           if(matrix[i][j]==x) 
+           return 1;
+        }
+    }
+    return 0;
+}
